@@ -1,0 +1,16 @@
+F3: 
+
+a) Superklass
+b) Alla utom den sista, ty superklass referenser kan referera till subklass objekt men subklass objekt kan inte referera till andra subklassers objekt.
+
+
+
+D5. Fundera igenom följande, och diskutera med din handledare:
+• Är det något speciellt i din kod du vill ha feedback på?
+    Nej inte direkt?
+
+• I programmet för spelet dra stickor använder vi arv (superklassen Player och subklasserna HumanPlayer och ComputerPlayer). Vad har vi vunnit med det?
+    Slippa implementera gemensamma metoder flera gånger. Vi kan skapa Player objekt som kan referera till båda typer, gör koden mer generell.
+
+• Det finns en abstrakt metod i superklassen Player. Vad är en abstrakt metod? Varför finns den där?
+    Därför den behöver implementeras i subklasserna. Anledningen till detta är för att den skiljer sig åt mellan de olika subklasserna, vilket innebär att de måste implementeras separat.
