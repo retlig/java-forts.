@@ -1,0 +1,29 @@
+What is the median time for 3 runs? Median time: 311.703 ms
+
+• Fungerar ditt program fortfarande?
+    Ja
+
+• Hur påverkas ordningen i det utskrivna resultatet?
+    Vissa element bytar plats på grund av bokstavsordning. TreeMap är alltid sorterad efter keys?
+
+• Hur påverkas exekveringstiden? (Beräkna även här medianvärdet från tre körningar.)
+    314.2866 ms  - Typ samma, men verkar vara mer konsekvent mellan olika exekveringar
+
+• Är det något speciellt i din kod du vill ha feedback på?
+    nej? Kanske förklara lambda uttryck för det känns komplicerat
+
+• Vad är det för skillnad på Map och HashMap?
+    Map är ett interface som HashMap implementerar.
+
+• Vad är det för skillnad på HashMap och TreeMap? Vad beror skillnaderna på?
+    Väldigt få? TreeMap är alltid sorterad efter nycklarna. Tror även tidskomplexiteten skiljer dem åt
+
+• På laborationen har du bl.a. använt de abstrakta datatyperna mängd och map. Vad
+har de för speciella egenskapar som gör dem lämpliga att använda på det sätts som
+har gjorts?
+    Ökar flexibeliteten att ändra vilka klasser man vill använda som implementerar dessa olika interface längre fram
+
+• Du har även använt Javas inbyggda sortering med hjälp av en sorteringsordning
+du själv angivit. Hur fungerar det? Och vilken funktion har interfacet Comparator i
+detta
+    Så som jag förstår så är Comparator ett functional interface vilket tillåter oss att skicka med ett lambda-uttryck för att bestämma hur sorteringen ska utföras.
